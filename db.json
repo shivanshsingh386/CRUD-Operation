@@ -1,0 +1,37 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "JSON Server",
+        "author": "John Doe",
+        "content": "This is a sample post."
+      },
+      {
+        "id": 2,
+        "title": "REST API",
+        "author": "Jane Smith",
+        "content": "Another post about REST APIs."
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "Great post!",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "I have a question.",
+        "postId": 1
+      },
+      {
+        "id": 3,
+        "body": "Nice content!",
+        "postId": 2
+      }
+    ],
+    "profile": {
+      "name": "Sample User"
+    }
+  }
+  
